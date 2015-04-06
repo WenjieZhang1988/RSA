@@ -14,6 +14,7 @@
 		1861AEEF1AD20E5B0037AF51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1861AEEE1AD20E5B0037AF51 /* Images.xcassets */; };
 		1861AEF21AD20E5B0037AF51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1861AEF01AD20E5B0037AF51 /* LaunchScreen.xib */; };
 		1861AEFE1AD20E5B0037AF51 /* WJRSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861AEFD1AD20E5B0037AF51 /* WJRSATests.m */; };
+		1861AF091AD20E760037AF51 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861AF081AD20E760037AF51 /* RSA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1861AEF71AD20E5B0037AF51 /* WJRSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJRSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1861AEFC1AD20E5B0037AF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1861AEFD1AD20E5B0037AF51 /* WJRSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJRSATests.m; sourceTree = "<group>"; };
+		1861AF071AD20E760037AF51 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		1861AF081AD20E760037AF51 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1861AEE61AD20E5B0037AF51 /* AppDelegate.m */,
 				1861AEE81AD20E5B0037AF51 /* ViewController.h */,
 				1861AEE91AD20E5B0037AF51 /* ViewController.m */,
+				1861AF071AD20E760037AF51 /* RSA.h */,
+				1861AF081AD20E760037AF51 /* RSA.m */,
 				1861AEE11AD20E5B0037AF51 /* Supporting Files */,
 			);
 			path = WJRSA;
@@ -221,6 +226,7 @@
 			files = (
 				1861AEEA1AD20E5B0037AF51 /* ViewController.m in Sources */,
 				1861AEE71AD20E5B0037AF51 /* AppDelegate.m in Sources */,
+				1861AF091AD20E760037AF51 /* RSA.m in Sources */,
 				1861AEE41AD20E5B0037AF51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
